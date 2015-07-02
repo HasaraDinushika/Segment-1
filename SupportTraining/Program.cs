@@ -10,6 +10,7 @@ namespace SupportTraining
     {
         static void Main(string[] args)
         {
+            // call PrintNum method
             PrintNum();
         }
 
@@ -17,6 +18,7 @@ namespace SupportTraining
         {
             for (int num = 1; num <= 100; num++)
             {
+                // check whether the number is divisible by 3 and 5
                 bool support = num % 3 == 0;
                 bool training = num % 5 == 0;
 
